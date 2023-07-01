@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Shopping List App</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <header id="main-header">
+            <img src="./images/note.png" alt="note">
+            <h1>Shopping List</h1>
+        </header>
+
+        <form action="#" id="form-input">
+            <div class="form-control">
+                <input type="text" name="item" id="item-input" placeholder="Add New Item">
+            </div>
+            <div class="form-control">
+                <button type="submit" class="btn">
+                    <i class=" fa-solid fa-plus"></i> Add Item
+                </button>
+            </div>
+        </form>
+
+        <div class="filter">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" name="item" id="filter" class="filter-items" placeholder="Search an Item">
+        </div>
+
+        <ul id="list-items" class="item">
+            <li>
+                Coke
+                <button class="remove-items btn-remove red-color">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </li>
+            <li>
+                Oreo
+                <button class="remove-items btn-remove red-color">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </li>
+            <li>
+                Juice
+                <button class="remove-items btn-remove red-color">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </li>
+            <li>
+                Coffee
+                <button class="remove-items btn-remove red-color">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </li>
+        </ul>
+
+        <button id="clear" class="btn-clear-items">Clear All</button>
+    </div>
+
+
+
+    <script src="js/main.js"></script>
+    <script src="https://kit.fontawesome.com/f0b3d42456.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
